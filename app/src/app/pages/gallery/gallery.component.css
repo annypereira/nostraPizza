@@ -1,0 +1,11 @@
+img {
+  width: 25%;
+  float: left;
+  transition: all 0.5s;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
