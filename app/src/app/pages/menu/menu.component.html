@@ -1,1 +1,11 @@
-<p>menu works!</p>
+<section>
+  <div>
+    <figure *ngFor="let pizza of pizzaList">
+      <h3>{{ pizza.tittle }}</h3>
+      <img src="{{ pizza.cover }}" alt="{{ pizza.tittle }}"/>
+      <h4>{{ pizza.ingredients }}</h4>
+      <h4>{{ pizza.size }}</h4>
+      <h4>{{ pizza.price }}</h4>
+    </figure>
+  </div>
+</section>

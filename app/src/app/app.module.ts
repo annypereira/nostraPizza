@@ -8,9 +8,9 @@ import { FooterComponent } from './core/footer/footer.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
-import { ReservationsComponent } from './pages/reservations/reservations.component';
 import { NavBarComponent } from './core/nav-bar/nav-bar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ShoppingCarComponent } from './pages/shopping-car/shopping-car.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     GalleryComponent,
     HomeComponent,
     MenuComponent,
-    ReservationsComponent,
+    ShoppingCarComponent,
   ],
   imports: [
     BrowserModule,
