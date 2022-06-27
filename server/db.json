@@ -1,100 +1,100 @@
 {
-    "pizzas": [
-        {
-            "tittle": "Speziata",
-            "ingredients": "Chorizo ahumado, carne picada, pepperoni y jalapeños",
-            "cover": "../SPEZIATA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 1
-        },
-        {
-            "tittle": "Palermo",
-            "ingredients": "Pollo, chorizo, bacon, maíz y parmesano",
-            "cover": "../PALERMO.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 2
-        },
-        {
-            "tittle": "Mamma Mia",
-            "ingredients": "Camarón, bacon, tomate cherry, albahaca, pollo y parmesano",
-            "cover": "../MAMMAMIA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 3
-        },
-        {
-            "tittle": "Siciliana",
-            "ingredients": "Jamón, chorizo, pepperoni, bacon",
-            "cover": "../SICILIANA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 4
-        },
-        {
-            "tittle": "Griglia",
-            "ingredients": "Chorizo ahumado, punta de anca, pollo y chimichurri",
-            "cover": "../GRIGLIA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 5
-        },
-        {
-            "tittle": "Turin",
-            "ingredients": "Carne picada, jamon, patatas a la francesa y pepperoni",
-            "cover": "../TURIN.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 6
-        },
-        {
-            "tittle": "Roma",
-            "ingredients": "Pollo, champiñón, camarón y bacon",
-            "cover": "../ROMA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 7
-        },
-        {
-            "tittle": "Marinara",
-            "ingredients": "Camarón, calamar y cangrejo",
-            "cover": "../MARINARA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 8
-        },
-        {
-            "tittle": "Verona",
-            "ingredients": "Cebolla caramelizada, bacon, peperoni y maíz",
-            "cover": "../VERONA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 9
-        },
-        {
-            "tittle": "Bianca",
-            "ingredients": "",
-            "cover": "../BIANCA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 10
-        },
-        {
-            "tittle": "Vernazza",
-            "ingredients": "",
-            "cover": "../VERNAZZA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 11
-        },
-        {
-            "tittle": "Varenna",
-            "ingredients": "",
-            "cover": "../VARENNA.png",
-            "size": "12 inch",
-            "price": 10,
-            "id": 12
-        }
-    ]
+  "pizzas": [
+    {
+      "tittle": "Speziata",
+      "ingredients": "Chorizo ahumado, carne picada, pepperoni y jalapeños",
+      "cover": "../SPEZIATA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 1
+    },
+    {
+      "tittle": "Palermo",
+      "ingredients": "Pollo, chorizo, bacon, maíz y parmesano",
+      "cover": "../PALERMO.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 2
+    },
+    {
+      "tittle": "Mamma Mia",
+      "ingredients": "Camarón, bacon, tomate cherry, albahaca, pollo y parmesano",
+      "cover": "../MAMMAMIA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 3
+    },
+    {
+      "tittle": "Siciliana",
+      "ingredients": "Jamón, chorizo, pepperoni, bacon",
+      "cover": "../SICILIANA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 4
+    },
+    {
+      "tittle": "Griglia",
+      "ingredients": "Chorizo ahumado, punta de anca, pollo y chimichurri",
+      "cover": "../GRIGLIA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 5
+    },
+    {
+      "tittle": "Turin",
+      "ingredients": "Carne picada, jamon, patatas a la francesa y pepperoni",
+      "cover": "../TURIN.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 6
+    },
+    {
+      "tittle": "Roma",
+      "ingredients": "Pollo, champiñón, camarón y bacon",
+      "cover": "../ROMA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 7
+    },
+    {
+      "tittle": "Marinara",
+      "ingredients": "Camarón, calamar y cangrejo",
+      "cover": "../MARINARA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 8
+    },
+    {
+      "tittle": "Verona",
+      "ingredients": "Cebolla caramelizada, bacon, peperoni y maíz",
+      "cover": "../VERONA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 9
+    },
+    {
+      "tittle": "Bianca",
+      "ingredients": "",
+      "cover": "../BIANCA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 10
+    },
+    {
+      "tittle": "Vernazza",
+      "ingredients": "",
+      "cover": "../VERNAZZA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 11
+    },
+    {
+      "tittle": "Varenna",
+      "ingredients": "",
+      "cover": "../VARENNA.png",
+      "size": "12 inch",
+      "price": 10,
+      "id": 12
+    }
+  ]
 }
