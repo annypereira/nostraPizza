@@ -1,0 +1,11 @@
+<h2>Hola</h2>
+<section>
+  <div *ngFor="let item of shoppingCart.cart">
+    <h3>{{ item.tittle }}</h3>
+    <img [src]="item.cover" [alt]="item.tittle" />
+    <h4>{{ item.ingredients }}</h4>
+    <h4>{{ item.size }}</h4>
+    <h4>{{ item.price }}</h4>
+    <button (click)="shoppingCart.deleteFromCart(item.id)">borrar</button>
+  </div>
+</section>

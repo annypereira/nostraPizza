@@ -6,17 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-bar.component.css'],
 })
 export class NavBarComponent implements OnInit {
-  themePage = 'moon';
+  themePage = '🌑';
   constructor() {}
 
   ngOnInit(): void {}
 
-  changeTheme() {
+  public changeTheme() {
     document.body.classList.toggle('dark');
-    if (this.themePage === 'moon') {
-      this.themePage = 'sun';
+    if (this.themePage === '🌑') {
+      this.themePage = '☀️';
     } else {
-      this.themePage = 'moon';
+      this.themePage = '🌑';
     }
   }
 }

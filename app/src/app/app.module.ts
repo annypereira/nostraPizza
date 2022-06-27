@@ -10,7 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { NavBarComponent } from './core/nav-bar/nav-bar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ShoppingCarComponent } from './pages/shopping-car/shopping-car.component';
+import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { ShoppingCarComponent } from './pages/shopping-car/shopping-car.componen
     GalleryComponent,
     HomeComponent,
     MenuComponent,
-    ShoppingCarComponent,
+    ShoppingCartComponent,
   ],
   imports: [
     BrowserModule,
