@@ -1,6 +1,14 @@
 {
   "pizzas": [
     {
+      "tittle": "Hortelana",
+      "ingredients": "Mix de verduras, brotes frescos y semillas de chía",
+      "cover": "https://i.imgur.com/WJ6DFj3.png",
+      "size": "12 inch",
+      "price": 12,
+      "id": 1
+    },
+    {
       "tittle": "Speziata",
       "ingredients": "Chorizo Ahumado, Lomo de Res molido, Pepperoni, Jalapeños",
       "cover": "https://i.imgur.com/79hjFrF.png",
@@ -96,5 +104,6 @@
       "price": 16.5,
       "id": 12
     }
-  ]
+  ],
+  "shopping-cart": []
 }
