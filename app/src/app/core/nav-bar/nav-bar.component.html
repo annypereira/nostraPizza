@@ -16,15 +16,8 @@
       </li>
     </ul>
   </div>
-  <div>
-    <ul class="car-dark">
-      <li>
-        <img class="car" src="../../../assets/orden-de-compra.png" alt="carrito" />
-        <a routerLink=""></a>
-      </li>
-      <li (click)="changeTheme()">
-        <p>{{ themePage }}</p>
-      </li>
-    </ul>
+  <div class="car-dark">
+    <img routerLink="shopping-cart" class="car" src="../../../assets/orden-de-compra.png" alt="carrito" />
+    <p (click)="changeTheme()">{{ themePage }}</p>
   </div>
 </nav>
