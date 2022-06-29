@@ -9,76 +9,100 @@
       "id": 1
     },
     {
-      "tittle": "Italiana",
-      "ingredients": "Jamón de pavo y bacon",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/06/pizza-italiana-1.jpg",
+      "tittle": "Speziata",
+      "ingredients": "Chorizo Ahumado, Lomo de Res molido, Pepperoni, Jalapeños",
+      "cover": "https://i.imgur.com/79hjFrF.png",
+      "size": "12 inch",
+      "price": 12,
+      "id": 1
+    },
+    {
+      "tittle": "Palermo",
+      "ingredients": "Pollo, Chorizo, Tocineta, Maíz y Parmesano",
+      "cover": "https://i.imgur.com/XhYoZdW.png",
       "size": "12 inch",
       "price": 13,
       "id": 2
     },
     {
-      "tittle": "Cuarto quesos",
-      "ingredients": "Mozzarella, emmental, gorgonzola y parmesano",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/06/pizza-cuatro-quesos-1.jpg",
+      "tittle": "Mamma Mia",
+      "ingredients": "Camarón, Tocineta, Tomate Cherry, Albahaca, Pollo y Parmesano",
+      "cover": "https://i.imgur.com/VFY0V8T.png",
       "size": "12 inch",
       "price": 14,
       "id": 3
     },
     {
-      "tittle": "Mediterranea",
-      "ingredients": "Atún marinado en aceite y limón, aceitunas negras y verdes, cebolla roja, queso gorgonzola y cebollino fresco",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/06/pizza-mediterranea.jpg",
+      "tittle": "Siciliana",
+      "ingredients": "Jamón, Chorizo, Pepperoni, Tocineta",
+      "cover": "https://i.imgur.com/rRlYmcD.png",
       "size": "12 inch",
       "price": 14,
       "id": 4
     },
     {
-      "tittle": "Pizza go",
-      "ingredients": "Mozzarella, tomate casero, carne asada de cerdo, nuestra salsa bbq, cilantro y cebolla roja",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/06/pizza-GO-1.jpg",
+      "tittle": "Griglia",
+      "ingredients": "Chorizo Ahumado, Punta de anca, Pollo y Chimichurri",
+      "cover": "https://i.imgur.com/ES4dRqw.png",
       "size": "12 inch",
       "price": 15,
       "id": 5
     },
     {
-      "tittle": "Barbacoa",
-      "ingredients": "Base de tomate, mozzarella, pollo, ternera, bacon ahumado y nuestra salsa bbq",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/11/pizza-barbacoa-comes.jpg",
+      "tittle": "Turin",
+      "ingredients": "Lomo de Res molido, Jamon, Papas a la francesa y Pepperoni",
+      "cover": "https://i.imgur.com/Cg4UKUb.png",
       "size": "12 inch",
       "price": 15,
       "id": 6
     },
     {
-      "tittle": "Cervatina",
-      "ingredients": "Mozzarella, lomo fresco adobado, queso manchego, jamón serrano, bacon y tomillo fresco",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/06/pizza-cervantina-1.jpg",
+      "tittle": "Verona",
+      "ingredients": "Cebolla caramelizada, Tocineta, Peperoni y Maíz",
+      "cover": "https://i.imgur.com/1Czlmq8.png",
       "size": "12 inch",
       "price": 15.5,
       "id": 7
     },
     {
-      "tittle": "Fusión",
-      "ingredients": "Quesos: mozzarella, bocconcino y de cabra, langostinos, tomate fresco, calabacín, rúcula y pimienta negra",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/06/pizza-fusion.jpg",
+      "tittle": "Roma",
+      "ingredients": "Pollo, Champiñón, Camarón y Tocineta",
+      "cover": "https://i.imgur.com/ciVPqy6.png",
       "size": "12 inch",
       "price": 15.5,
       "id": 8
     },
     {
-      "tittle": "La Vita del Greco",
-      "ingredients": "Tomate casero, mozzarella, picadillo de ciervo, boletus, hierbas frescas y queso curado D.O La Mancha",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/06/pizza-la-vita-del-greco-1.jpg",
+      "tittle": "Marinara",
+      "ingredients": "Camarón, Calamar y Cangrejo",
+      "cover": "https://i.imgur.com/50VndWk.png",
       "size": "12 inch",
       "price": 16,
       "id": 9
     },
     {
-      "tittle": "Iberica",
-      "ingredients": "Tomate casero, mozzarella, jamón ibérico, alcaparras, queso manchego D.O. y albahaca fresca",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/06/pizza-iberica.jpg",
+      "tittle": "Varenna",
+      "ingredients": "Peperoni, Champiñon, Maiz, Cebolla, Pimentón,Albahaca y Tocineta",
+      "cover": "https://i.imgur.com/1iKMMkG.png",
       "size": "12 inch",
       "price": 16.5,
       "id": 10
+    },
+    {
+      "tittle": "Bianca",
+      "ingredients": "Peperoni, Crema de Champiñon, Tocineta y Parmesano",
+      "cover": "https://i.imgur.com/Zuf70AK.png",
+      "size": "12 inch",
+      "price": 16.5,
+      "id": 11
+    },
+    {
+      "tittle": "Vernazza",
+      "ingredients": "Peperoni, Punta de anco, Pimentón, Maiz y Cebolla ",
+      "cover": "https://i.imgur.com/drZqMha.png",
+      "size": "12 inch",
+      "price": 16.5,
+      "id": 12
     }
   ],
   "shopping-cart": []

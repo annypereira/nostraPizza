@@ -1,13 +1,13 @@
-<section>
-  <div>
-    <figure *ngFor="let pizza of pizzaList">
+<!-- <section> -->
+  <div class="container">
+    <figure class="wrapper" *ngFor="let pizza of pizzaList">
       <h3>{{ pizza.tittle }}</h3>
       <img [src]="pizza.cover" [alt]="pizza.tittle" />
-      <h4>{{ pizza.ingredients }}</h4>
+      <h4 class="">{{ pizza.ingredients }}</h4>
       <h4>{{ pizza.size }}</h4>
-      <h4>{{ pizza.price }}</h4>
-      <button (click)="shoppingCartService.addToCart(pizza)">Agregar</button>
+      <h4>{{ pizza.price + "€"}}</h4>
+      <button class="shoppingAdd" (click)="shoppingCartService.addToCart(pizza)">Añadir al carrito</button>
     </figure>
   </div>
-</section>
+<!-- </section> -->
 <!-- <button (click)="shoppingCart.deleteFromCart(item.id)"></button> -->
