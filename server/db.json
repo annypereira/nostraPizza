@@ -3,7 +3,7 @@
     {
       "tittle": "Hortelana",
       "ingredients": "Mix de verduras, brotes frescos y semillas de chía",
-      "cover": "https://comesentoledo.com/wp-content/uploads/2021/10/pizza-hortelana.jpg",
+      "cover": "https://i.imgur.com/WJ6DFj3.png",
       "size": "12 inch",
       "price": 12,
       "id": 1
@@ -80,5 +80,6 @@
       "price": 16.5,
       "id": 10
     }
-  ]
+  ],
+  "shopping-cart": []
 }
