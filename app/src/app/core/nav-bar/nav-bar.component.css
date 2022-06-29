@@ -22,6 +22,10 @@ ul {
   gap: 20px;
   align-items: center;
 }
+
+.car-dark{
+  gap: 20px;
+}
 /* a {
   transition: all 0.3s;
   text-transform: uppercase;

@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -14,15 +16,17 @@
   border-radius: 10px;
   width: 300px;
   height: 450px;
-}x
+}
 
-.wrapper:hover{
+.wrapper:hover {
   transform: scale(1.02);
 }
 .wrapper h3 {
   font-size: 30px;
   font-weight: bold;
   margin: 10px;
+  color: black;
+  text-shadow:darkgray;
 } 
 
 .wrapper img {
@@ -31,11 +35,36 @@
   justify-content: center;
 }
 
-.wrapper h4{
+.wrapperH {
   font-size: 15px;
   font-weight:lighter;
   font-style: italic;
   height: auto;
   width: 180px;
   text-align: center;
+}
+
+.cash {
+  font-weight:normal;
+  font-size:large;
+  font-weight: bold;
+  color: rgb(38, 38, 38);
+}
+
+.shoppingAdd {
+  background-color: rgb(119, 0, 0);
+  border-radius: 10px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.shoppingAdd:hover {
+  transform: scale(1.02);
+  background-color: rgb(161, 0, 0);
+  box-shadow: 10px;
 }
