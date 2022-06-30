@@ -1,7 +1,11 @@
 <nav class="navbar">
   <div>
-    <img class="logo" src="../../../assets/logoNostraPizza.png" alt="logoNostraPizza" />
-    <ul class="nav nav-pills nav-fill">
+    <img
+      id="logo"
+      src="../../../assets/logoNostraPizza.png"
+      alt="logoNostraPizza"
+    />
+    <ul class="nav">
       <li class="nav-item">
         <a class="nav-link" routerLink="/">Inicio</a>
       </li>
@@ -9,15 +13,24 @@
         <a class="nav-link" routerLink="menu" routerLinkActive="active">Menú</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="gallery" routerLinkActive="active">Galería</a>
+        <a class="nav-link" routerLink="gallery" routerLinkActive="active"
+          >Galería</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="shopping-cart" routerLinkActive="active">Carrito</a>
+        <a class="nav-link" routerLink="shopping-cart" routerLinkActive="active"
+          >Carrito</a
+        >
       </li>
     </ul>
   </div>
   <div class="car-dark">
-    <img routerLink="shopping-cart" class="car" src="../../../assets/orden-de-compra.png" alt="carrito" />
+    <img
+      routerLink="shopping-cart"
+      id="car"
+      src="../../../assets/orden-de-compra.png"
+      alt="carrito"
+    />
     <p (click)="changeTheme()">{{ themePage }}</p>
   </div>
 </nav>

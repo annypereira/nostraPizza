@@ -1,14 +1,37 @@
-div {
-  margin-bottom: 18px;
-  display: flex;
+* {
+  color: #770007;
 }
-.logo {
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  width: 100%;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #770007;
+  border-radius: 12px;
+}
+
+.nav-link:hoverdd {
+  color: #fff;
+}
+
+#logo {
   height: 90px;
   width: auto;
   cursor: pointer;
   transition: all 0.3s;
 }
-.car {
+#car {
   height: 40px;
   width: auto;
   cursor: pointer;
@@ -23,7 +46,7 @@ ul {
   align-items: center;
 }
 
-.car-dark{
+.car-dark {
   gap: 20px;
 }
 /* a {
