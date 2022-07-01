@@ -21,3 +21,32 @@ body {
   background-color: #565656;
   color: whitesmoke;
 }
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+  background-color: rgba(119, 0, 7, 1);
+}
+.mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+  background-color: rgba(119, 0, 7, 0.5);
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #770007;
+  border-radius: 12px;
+}

@@ -1,50 +1,37 @@
 * {
   color: #770007;
 }
-.navbar{
-  display: flex;
-}
-div {
+
+.navbar__container {
   display: flex;
   align-items: center;
-}
-
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.nav-link.active {
-  color: #fff;
-  background-color: #770007;
-  border-radius: 12px;
+  justify-content: space-between;
+  padding: 16px 8px;
 }
 
 .nav-link:hover {
   color: #fff;
 }
 
-#logo {
-  height: 90px;
+.logo {
+  height: 60px;
   width: auto;
   cursor: pointer;
   transition: all 0.3s;
 }
 
-#car {
-  height: 40px;
+.car {
+  height: 30px;
   width: auto;
   cursor: pointer;
   transition: all 0.3s;
 }
 
-#car:hover{
+#car:hover {
   transform: scale(1.1);
 }
 
-#logo:hover{
+#logo:hover {
   transform: scale(1.1);
 }
 
@@ -54,14 +41,8 @@ ul {
   align-items: center;
 }
 
-.car-dark {
-  gap: 20px;
+.rigth-panel__container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-/* a {
-  transition: all 0.3s;
-  text-transform: uppercase;
-}
-a:hover {
-  color: red;
-  text-decoration: underline;
-} */

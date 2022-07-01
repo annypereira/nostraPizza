@@ -1,11 +1,12 @@
-<nav class="navbar">
-  <div>
-    <img
-      id="logo"
-      src="../../../assets/logoNostraPizza.png"
-      alt="logoNostraPizza"
-      routerLink="/"
-    />
+<header class="navbar__container">
+  <img
+    class="logo"
+    src="../../../assets/logoNostraPizza.png"
+    alt="logoNostraPizza"
+    routerLink="/"
+  />
+
+  <nav class="navbar">
     <ul class="nav">
       <li class="nav-item">
         <a class="nav-link" routerLink="/">Inicio</a>
@@ -18,20 +19,18 @@
           >Galería</a
         >
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" routerLink="shopping-cart" routerLinkActive="active"
-          >Carrito</a
-        >
-      </li> -->
     </ul>
-  </div>
-  <div class="car-dark">
+  </nav>
+
+  <div class="rigth-panel__container">
     <img
       routerLink="shopping-cart"
-      id="car"
+      class="car"
       src="../../../assets/orden-de-compra.png"
       alt="carrito"
     />
-    <p (click)="changeTheme()">{{ themePage }}</p>
+    <mat-slide-toggle (toggleChange)="changeTheme()">{{
+      themePage
+    }}</mat-slide-toggle>
   </div>
-</nav>
+</header>
