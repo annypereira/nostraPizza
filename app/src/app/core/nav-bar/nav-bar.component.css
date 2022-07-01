@@ -1,14 +1,15 @@
 * {
   color: #770007;
 }
-
+.navbar{
+  display: flex;
+}
 div {
   display: flex;
   align-items: center;
 }
 
 .nav-link {
-  width: 100%;
   display: block;
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -21,7 +22,7 @@ div {
   border-radius: 12px;
 }
 
-.nav-link:hoverdd {
+.nav-link:hover {
   color: #fff;
 }
 
@@ -31,15 +32,22 @@ div {
   cursor: pointer;
   transition: all 0.3s;
 }
+
 #car {
   height: 40px;
   width: auto;
   cursor: pointer;
   transition: all 0.3s;
 }
-.logo:hover {
+
+#car:hover{
   transform: scale(1.1);
 }
+
+#logo:hover{
+  transform: scale(1.1);
+}
+
 ul {
   display: flex;
   gap: 20px;
