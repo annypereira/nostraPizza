@@ -6,6 +6,11 @@
     <h4 class="wrapperH">{{ item.ingredients }}</h4>
     <h4 class="wrapperH">{{ "Tamaño= " + item.size }}</h4>
     <h4 class="cash">{{ item.price + "€" }}</h4>
-    <button class="shoppingDelete" (click)="shoppingCart.deleteFromCart(item.id)">borrar</button>
+    <button
+      class="shoppingDelete"
+      (click)="shoppingCart.deleteFromCart(item.id)"
+    >
+      X
+    </button>
   </div>
 </div>

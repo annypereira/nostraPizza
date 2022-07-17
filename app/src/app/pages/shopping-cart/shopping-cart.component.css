@@ -1,71 +1,70 @@
 .container {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center; */
-    grid-template-columns: repeat(2, 2fr);
-    gap: 1.5rem;
-    padding-top: 1rem;
-  }
-  
-  .wrapper {
-    display: grid;
-    justify-content: space-around;
-    align-content: space-between;
-    justify-items: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    width: 250px;
-    height: 300px;
-  }
-  
-  .wrapper:hover {
-    transform: scale(1.02);
-  }
-  .wrapper h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px;
-    color: black;
-    text-shadow:darkgray;
-  } 
-  
-  .wrapper img {
-    height: 150px;
-    object-fit:cover;
-    justify-content: center;
-  }
-  
-  .wrapperH {
-    font-size: 8px;
-    font-weight:lighter;
-    font-style: italic;
-    height: auto;
-    width: 100px;
-    text-align: center;
-  }
-  
-  .cash {
-    font-weight:normal;
-    font-size:10px;
-    font-weight: bold;
-    color: rgb(38, 38, 38);
-  }
-  
-  .shoppingDelete {
-    background-color: rgb(119, 0, 0);
-    border-radius: 5px;
-    border: 1px solid white;
-    text-align: center;
-    padding: 8px 8px;
-    font-size: 8px;
-    color: white;
-    cursor: pointer;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .shoppingDelete:hover {
-    transform: scale(1.02);
-    background-color: rgb(161, 0, 0);
-    box-shadow: 10px;
-  }
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  /* display: grid; */
+  justify-content: space-around;
+  /* align-content: space-between; */
+  /* justify-items: center; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  flex-grow: 1;
+  /* height: 300px; */
+  display: flex;
+  align-items: center;
+}
+
+.wrapper:hover {
+  transform: scale(1.02);
+}
+
+.wrapper h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  color: black;
+  text-shadow: darkgray;
+}
+
+.wrapper img {
+  height: 150px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.wrapperH {
+  font-size: 12px;
+  font-weight: lighter;
+  font-style: italic;
+  height: auto;
+  width: 100px;
+  text-align: center;
+}
+
+.cash {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(38, 38, 38);
+}
+
+.shoppingDelete {
+  background-color: rgb(119, 0, 0);
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.shoppingDelete:hover {
+  transform: scale(1.02);
+  background-color: rgb(161, 0, 0);
+  box-shadow: 10px;
+}
